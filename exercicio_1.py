@@ -5,8 +5,6 @@
 # NOME, IDADE, SEXO, PESO, ALTURA, PROFISSÃO, RUA, BAIRRO, CIDADE, ESTADO, CEP, TELEFONE
 
 import os
-import datetime
-teste
 
 os.system('cls')
 
