@@ -5,7 +5,6 @@
 # QUANDO DIVIDIDOS POR 11, PRODUZAM RESTO IGUAL A 5.
 
 import os
-teste
 
 os.system('cls')
 
