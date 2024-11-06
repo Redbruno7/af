@@ -15,8 +15,7 @@ print('EXERCÍCIO 1')
 print('='*70)
 
 # Entrada
-numero = int
-print('Número entre 1000 e 2000 divisíveis por 11 com resto 5:')
+print('Números entre 1000 e 2000 divisíveis por 11 com resto 5:')
 print('.'*70)
 
 # Processamento e Saída

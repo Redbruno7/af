@@ -23,7 +23,7 @@ if numero <= 0:
     print('O valor deve ser inteiro e positivo!')
 else:
     soma = 0
-    for numero in range(1, numero + 1):
-        soma += 1 / numero
-print(f'A soma proposta pelo exercício resulta em: {soma:.2f}')
+    for i in range(1, numero + 1):
+        soma += 1 / i
+    print(f'A soma proposta pelo exercício resulta em: {soma:.2f}')
 print('='*70)

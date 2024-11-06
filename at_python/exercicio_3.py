@@ -13,16 +13,25 @@ print('='*70)
 print('EXERCÍCIO 3')
 print('='*70)
 
-# Entrada
-numero = int
+# Inicialização da variável do produto
+produto = 1 # Variável para armazenar o produto dos números primos
 
-# Processamento e Saída # INCOMPLETO
+# Processamento: Iteração dos números no intervalo
+for numero in range(92, 1479): # Itera de 92 a 1478
+    primo = True # Assume que número é primo
+
+    # Validação de número primo
+    for divisor in range(2, int(numero ** 0.5) + 1):
+        if numero % divisor == 0: # Se a divisão for exata (resto 0), o número não é primo
+            primo = False 
+            break # Sai do loop porque encontrou um divisor
+
+    # Multiplica apenas se o número for primo
+    if primo: 
+        produto *= numero # Acumula o produto dos números primos no intervalo
+
+# Saída
 print('Cálculo do produto dos números primos entre 92 e 1478:')
 print('.'*70)
-produto = 92
-for numero in range(92, 1479):
-    for i in range(92, produto + 1):
-        if (numero % numero == 0) and (numero % 1 == 0) and (numero % i != 0):
-            produto *= numero
-print(f'O resultado é: {produto}')
+print(f'Resultado: {produto}')
 print('='*70)
