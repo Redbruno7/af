@@ -33,4 +33,3 @@ for i in range(1, num_clientes + 1):
     print(f'Bônus especial: R${bonus:.2f}')
     print('-'*70)
 print('='*70)
-teste
