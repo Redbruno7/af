@@ -21,8 +21,8 @@ for numero in range(92, 1479): # Itera de 92 a 1478
     primo = True # Assume que número é primo
 
     # Validação de número primo
-    for divisor in range(2, int(numero ** 0.5) + 1):
-        if numero % divisor == 0: # Se a divisão for exata (resto 0), o número não é primo
+    for i in range(2, int(numero ** 0.5) + 1):
+        if numero % i == 0: # Se a divisão for exata (resto 0), o número não é primo
             primo = False 
             break # Sai do loop porque encontrou um divisor
 
