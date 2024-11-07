@@ -30,14 +30,14 @@ valor_maximo = 0
 ingresso_maximo = 0
 
 # Cabeçalho da tabela
-print(f"{'Preço do ingresso':<20}{'Quantidade Vendida':<20}{'Lucro':<20}")
+print(f"{'Preço do ingresso':<25}{'Quantidade Vendida':<25}{'Lucro':<25}")
 print('-'*70)
 
 # Processamento
 while valor >= 1.00: # Loop para cálculo de lucro no intervalo de 5.00 a 1.00
     receita = valor * ingresso
     lucro = receita - despesa
-    print(f'R${valor:<18.2f}{ingresso:<20}{lucro:<18.2f}')
+    print(f'R${valor:<23.2f}{ingresso:<25}{lucro:<13.2f}')
     
     if lucro > lucro_maximo:
         lucro_maximo = lucro
