@@ -1,12 +1,7 @@
-# TECNÓLOGO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - LÓGICA DE PROGRAMAÇÃO E ALGORITMOS 1
+# TECNÓLOGO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS 
+# LÓGICA DE PROGRAMAÇÃO E ALGORITMOS 1
 # ALUNO: BRUNO C. RODGERS
 # DATA: 2024, 2º SEMESTRE
-# EXERCÍCIO 11: Uma loja utiliza o código V para transação à vista e P para transação a prazo. 
-# Faça um programa que receba o código e o valor de 15 transações. 
-# Calcule e mostre:
-# O valor total das compras à vista;
-# O valor total das compras a prazo;
-# o valor da primeira prestaçao das compras a prazo, sabendo-se que essas serão pagas em três vezes.
 
 import os
 
@@ -22,7 +17,6 @@ print('=' * 70)
 total_vista = 0.00
 total_prazo = 0.0
 
-# Processamento
 # Iteração de 15 transações
 for i in range(1,16):
     

@@ -1,11 +1,7 @@
-# TECNÓLOGO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - LÓGICA DE PROGRAMAÇÃO E ALGORITMOS 1
+# TECNÓLOGO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS 
+# LÓGICA DE PROGRAMAÇÃO E ALGORITMOS 1
 # ALUNO: BRUNO C. RODGERS
 # DATA: 2024, 2º SEMESTRE
-# EXERCÍCIO 14: Faça um programa que receba a idade, o peso, a altura, a cor dos olhos (A - Azul, P - Preto, V - Verde e C - Castanho) e a cor dos cabelos (P - Preto, C - Castanho, L - Louro e R - Ruivo) de 20 pessoas e que calcule e mostre:
-# A quantidade de pessoas com idade superior a 50 anos e peso inferior a 60 quilos;
-# A média das idades das pessoas com altura inferior a 1,50;
-# A percentagem de pessoas com olhos azuis entre todas as pessoas analisadas;
-# A quantidade de pessoas ruivas e que não possuem olhos azuis.
 
 import os
 

@@ -23,7 +23,6 @@ soma_altura = 0
 contador_altura = 0
 contador_peso = 0
 
-# Processamento
 # Iteração de 25 pessoas
 for i in range(1, total_pessoas + 1):
     print('=' * 70)

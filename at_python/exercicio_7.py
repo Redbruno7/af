@@ -1,8 +1,7 @@
-# TECNÓLOGO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - LÓGICA DE PROGRAMAÇÃO E ALGORITMOS 1
+# TECNÓLOGO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS 
+# LÓGICA DE PROGRAMAÇÃO E ALGORITMOS 1
 # ALUNO: BRUNO C. RODGERS
 # DATA: 2024, 2º SEMESTRE
-# EXERCÍCIO 7: Faça um programa que receba a idade de dez pessoas e que calcule e 
-# mostre a quantidade de pessoas com idade maior ou igual a 18 anos.
 
 import os
 
