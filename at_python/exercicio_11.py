@@ -30,7 +30,8 @@ for i in range(1,16):
     while True:
         print(f'Transação {i}: ')
         print('-' * 70)
-        codigo = input('Digite o código da transação (V para vista, P para prazo): ')
+        codigo = input('Digite o código da transação '
+                       '(V para vista, P para prazo): ')
         print('-' * 70)
         
         if codigo in ['V', 'v', 'P', 'p']:
@@ -38,7 +39,7 @@ for i in range(1,16):
         else:
             print(f'Código inválido!')
             print('=' * 70)
-
+        
     # Verificação de valor positivo
     while True:
         valor = float(input('Digite o valor da transação: R$ '))
@@ -62,5 +63,6 @@ primeira_prestacao = total_prazo / 3
 print('=' * 70)
 print(f'Total das compras à vista: R${total_vista:.2f}')
 print(f'Total das compras à prazo: R${total_prazo:.2f}')
-print(f'Valor da primeira prestação se comprada à prazo: R${primeira_prestacao:.2f}')
+print('Valor da primeira prestação se comprada à prazo: '
+      f'R${primeira_prestacao:.2f}')
 print('=' * 70)
