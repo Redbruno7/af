@@ -9,37 +9,54 @@ import os
 os.system('cls')
 
 # Título
-print('='*70)
-print('EXERCÍCIO 4')
-print('='*70)
+print('=' * 90)
+print('EXERCÍCIO 4 - LEITURA DE ELEMENTOS DE GRUPOS '
+      'EM ORDEM INSERIDA, CRESCENTE E DECRESCENTE')
+print('=' * 90)
 
-# Entrada
-grupos = [] # Lista para armazenar grupos
+# Lista
+grupos = []
 
-# Processamento
-for i in range(1, 6): # Loop para leitura de 5 grupos
+# Iteração entre 5 grupos
+for i in range(1, 6):
+    print()
+    print('=' * 90)
     print(f'Grupo {i}: ')
-    valores = [] # Lista temporária para os valores de cada grupo
-    for j in range(4): # Loop para leitura de valores
-        valor = int(input(f'Digite o valor {j + 1} de 4: ')) # Leitura de cada valor
-        valores.append(valor) # Adiciona valor à lista do grupo
-    grupos.append(valores) # Adiciona lista de valores ao grupo principal
+    print('=' * 90)
 
-# Saída ordenada
-print('-'*70)
+    # Lista temporária para valores de cada grupo
+    valores = []
+
+    # Iteração entre 4 valores
+    for j in range(1, 5):
+        valor = int(input(f'Digite o valor {j} de 4: '))
+        valores.append(valor)
+    grupos.append(valores)
+    print('=' * 90)
+
+# Saída
+print()
+print('=' * 90)
 print(f'Valores na ordem de inserção:')
-for i, valores in enumerate(grupos, start=1): # Imprime grupos em ordem de entrada
-    print(f'Grupo {i}: {valores}') # Imprime valores em ordem de entrada
+print('-' * 90)
 
-# Saída ordenada crescente
-print('-'*70)
+# Iteração entre os valores dos grupos em ordem inserida
+for i, valores in enumerate(grupos, start=1): 
+    print(f'Grupo {i}: {valores}')
+
+print('-' * 90)
 print(f'Valores em ordem crescente:')
-for i, valores in enumerate(grupos, start=1):
-    print(f'Grupo {i}: {sorted(valores)}') # sorted(): exibição crescente
+print('-' * 90)
 
-# Saída ordenada decrescente
-print('-'*70)
-print(f'Valores em ordem decrescente:')
+# Iteração entre os valores dos grupos em ordem crescente
 for i, valores in enumerate(grupos, start=1):
-    print(f'Grupo {i}: {sorted(valores, reverse=True)}') # sorted(reverse = True): inversão de exibição
-print('='*70)
+    print(f'Grupo {i}: {sorted(valores)}')
+
+print('-' * 90)
+print(f'Valores em ordem decrescente:')
+print('-' * 90)
+
+# Iteração entre os valores dos grupos em ordem decrescente
+for i, valores in enumerate(grupos, start=1):
+    print(f'Grupo {i}: {sorted(valores, reverse=True)}')
+print('=' * 90)
