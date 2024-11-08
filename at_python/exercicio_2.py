@@ -9,15 +9,18 @@ import os
 os.system('cls')
 
 # Título
-print('='*70)
-print('EXERCÍCIO 2')
-print('='*70)
+print('=' * 60)
+print('EXERCÍCIO 2 - SOMA DE UM NÚMERO MULTIPLICADO "1/N" VEZES')
+print('=' * 60)
 
-# Entrada
+print()
+print('=' * 60)
 numero = int(input('Digite um número inteiro para cálculo: '))
+print('=' * 60)
 
 # Processamento e Saída
-print('.'*70)
+print()
+print('=' * 60)
 if numero <= 0:
     print('O valor deve ser inteiro e positivo!')
 else:
@@ -25,4 +28,4 @@ else:
     for i in range(1, numero + 1):
         soma += 1 / i
     print(f'A soma proposta pelo exercício resulta em: {soma:.2f}')
-print('='*70)
+print('=' * 60)
