@@ -38,7 +38,7 @@ for i in range(1,16):
         else:
             print(f'Código inválido!')
             print('=' * 70)
-
+    
     # Verificação de valor positivo
     while True:
         valor = float(input('Digite o valor da transação: R$ '))
