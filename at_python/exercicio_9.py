@@ -13,9 +13,6 @@ print('=' * 50)
 print('EXERCÍCIO 9 - TABUADA')
 print('=' * 50)
 
-# Entrada Contador
-tabuada = 0
-
 # Entrada
 numero = int(input('Digite um número para ver sua tabuada: '))
 
