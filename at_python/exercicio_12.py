@@ -86,6 +86,8 @@ percentual_peso = (contador_peso / total_pessoas) * 100
 # Saída
 print('=' * 70)
 print(f'Quantidade de pessoas com idade superior a 50 anos: {contador_idade}')
-print(f'Média de altura das pessoas com idade entre 10 e 20 anos: {media_altura:.2f} m')
-print(f'Percentual de pessoas com peso inferior a 40 kg: {percentual_peso:.2f} kg')
+print('Média de altura das pessoas com idade entre 10 e 20 anos: '
+      f'{media_altura:.2f} m')
+print('Percentual de pessoas com peso inferior a 40 kg: '
+      f'{percentual_peso:.2f} kg')
 print('=' * 70)
