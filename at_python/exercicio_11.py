@@ -1,7 +1,7 @@
 # TECNÓLOGO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - LÓGICA DE PROGRAMAÇÃO E ALGORITMOS 1
 # ALUNO: BRUNO C. RODGERS
 # DATA: 2024, 2º SEMESTRE
-# EXERCÍCIO 10: Uma loja utiliza o código V para transação à vista e P para transação a prazo. 
+# EXERCÍCIO 11: Uma loja utiliza o código V para transação à vista e P para transação a prazo. 
 # Faça um programa que receba o código e o valor de 15 transações. 
 # Calcule e mostre:
 # O valor total das compras à vista;
