@@ -12,13 +12,18 @@ os.system('cls')
 print('=' * 50)
 print('EXERCÍCIO 9 - TABUADA')
 print('=' * 50)
+print()
 
 # Entrada
+print('=' * 50)
 numero = int(input('Digite um número para ver sua tabuada: '))
+print('=' * 50)
 
 # Processamento e saída
-print('-' * 50)
+print()
+print('=' * 50)
 print(f'Tabuada de {numero}:')
+print('-' * 50)
 for i in range(1, 11):
     resultado = numero * i
     print(f'{numero} x {i} = {resultado}')
