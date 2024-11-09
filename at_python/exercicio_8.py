@@ -12,17 +12,22 @@ os.system('cls')
 print('=' * 63)
 print('EXERCÍCIO 8 - TABELA DE FAIXA ETÁRIA')
 print('=' * 63)
+print()
 
-# Entrada para contador
+# Entrada
+total_pessoas = 15
+
+# Contador
 faixa_1 = 0
 faixa_2 = 0
 faixa_3 = 0
 faixa_4 = 0
 faixa_5 = 0
-total_pessoas = 15
 
-# Processamento
+# Iteração entre 15 pessoas
 for i in range(1, 16):
+    print('-' * 63)
+
     # Validação de idade
     while True:
         idade = int(input(f'Digite a idade da {i}ª pessoa: '))
@@ -50,6 +55,7 @@ for i in range(1, 16):
     percentual_2 = (faixa_5 / total_pessoas) * 100
 
 # Saída (Tabela)
+print()
 print('=' * 63)
 print(f"{'| FAIXA ETÁRIA':<30}| {'Nº DE PESSOAS':<30}|")
 print('-' * 63)
@@ -62,6 +68,10 @@ print('-' * 63)
 print(f"{'| 4ª Faixa (De 46 a 60 anos)':<30}| {faixa_4:<30}|")
 print('-' * 63)
 print(f"{'| 5ª Faixa (Acima de 60 anos)':<30}| {faixa_5:<30}|")
+print('=' * 63)
+
+# Saída Percentuais
+print()
 print('=' * 63)
 print(f'Percentual da 1ª faixa: {percentual_1:.0f}%')
 print(f'Percentual da 5ª faixa: {percentual_2:.0f}%')
