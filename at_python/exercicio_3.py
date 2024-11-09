@@ -12,6 +12,7 @@ os.system('cls')
 print('=' * 70)
 print('EXERCÍCIO 3 - PRODUTO DOS NÚMEROS PRIMOS NO INTERVALO ENTRE 92 E 1478')
 print('=' * 70)
+print()
 
 # Contador
 produto = 1 
@@ -31,7 +32,6 @@ for numero in range(92, 1479):
         produto *= numero
 
 # Saída
-print()
 print('=' * 70)
 print('Cálculo do produto dos números primos entre 92 e 1478:')
 print('-' * 70)

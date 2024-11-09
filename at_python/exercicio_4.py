@@ -13,13 +13,13 @@ print('=' * 90)
 print('EXERCÍCIO 4 - LEITURA DE ELEMENTOS DE GRUPOS '
       'EM ORDEM INSERIDA, CRESCENTE E DECRESCENTE')
 print('=' * 90)
+print()
 
 # Lista
 grupos = []
 
 # Iteração entre 5 grupos
 for i in range(1, 6):
-    print()
     print('=' * 90)
     print(f'Grupo {i}: ')
     print('=' * 90)

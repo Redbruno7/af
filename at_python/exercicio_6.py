@@ -12,6 +12,7 @@ os.system('cls')
 print('='*70)
 print('EXERCÍCIO 6 - SIMULAÇÃO DE LUCRO')
 print('='*70)
+print()
 
 # Entrada
 valor = 5.00
@@ -26,7 +27,6 @@ valor_maximo = 0
 ingresso_maximo = 0
 
 # Cabeçalho da tabela
-print()
 print('='*70)
 print('TABELA DE SIMULAÇÃO DE LUCRO')
 print('='*70)

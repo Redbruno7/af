@@ -11,9 +11,9 @@ os.system('cls')
 print('='*60)
 print('EXERCÍCIO 1 - SELEÇÃO DE NÚMEROS EM INTERVALO COM OPERAÇÃO')
 print('='*60)
+print()
 
 # Entrada
-print()
 print('=' * 60)
 print('Números entre 1000 e 2000 divisíveis por 11 com resto 5:')
 print('=' * 60)

@@ -12,6 +12,7 @@ os.system('cls')
 print('=' * 60)
 print('EXERCÍCIO 2 - SOMA DE UM NÚMERO MULTIPLICADO "1/N" VEZES')
 print('=' * 60)
+print()
 
 print()
 print('=' * 60)
@@ -19,7 +20,6 @@ numero = int(input('Digite um número inteiro para cálculo: '))
 print('=' * 60)
 
 # Processamento e Saída
-print()
 print('=' * 60)
 if numero <= 0:
     print('O valor deve ser inteiro e positivo!')

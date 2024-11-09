@@ -12,16 +12,16 @@ os.system('cls')
 print('=' * 50)
 print('EXERCÍCIO 5 - CÁLCULO DE BÔNUS')
 print('=' * 70)
+print()
 
 # Lista
 lista_clientes = []
 
 # Contador
-num_clientes = 3
+num_clientes = 15
 
 # Iteração entre 15 clientes
 for i in range(1, num_clientes + 1):
-    print()
     print('=' * 70)
     print(f'Cliente {i}:')
     print('=' * 70)
