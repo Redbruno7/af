@@ -42,6 +42,7 @@ for i in range(1,16):
     while True:
         valor = float(input('Digite o valor da transação: R$ '))
         print('-' * 70)
+        
         if valor >= 0:
             break
         else:
