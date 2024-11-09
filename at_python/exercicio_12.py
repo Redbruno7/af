@@ -1,10 +1,6 @@
 # TECNÓLOGO DE ANÁLISE E DESENVOLVIMENTO DE SISTEMAS - LÓGICA DE PROGRAMAÇÃO E ALGORITMOS 1
 # ALUNO: BRUNO C. RODGERS
 # DATA: 2024, 2º SEMESTRE
-# EXERCÍCIO 12: Faça um programa que receba a idade, a altura e o peso de 25 pessoas. Calcule e mostre:
-# A quantidade de pessoas com idade superior a 50 anos;
-# A média das alturas das pessoas com idade entre 10 e 20 anos;
-# a percentagem de pessoas com peso inferior a 40 quilos entre todas as pessoas analisadas.
 
 import os
 
@@ -25,37 +21,40 @@ contador_peso = 0
 
 # Iteração de 25 pessoas
 for i in range(1, total_pessoas + 1):
+    print()
     print('=' * 70)
     print(f'Dados da pessoa {i}: ')
-    print('-' * 70)
-
+    print('=' * 70)
+    print ()
+    
     # Validação de idade
     while True:
+        
+        print('-' * 70)
         idade = int(input('Digite a idade: '))
+        print('-' * 70)
         if idade >= 0:
             break
         else:
-            print('-' * 70)
             print('Idade inválida! Digite um valor positivo.')
-            print('-' * 70)
 
     # Validação de altura
     while True:
         altura = float(input('Digite a altura em metros: '))
+        print('-' * 70)
         if altura > 0:
             break
         else:
-            print('-' * 70)
             print('Altura inválida! Digite um valor positivo.')
             print('-' * 70)
     
     # Validação de peso
     while True:
         peso = float(input('Digite o peso em quilos: '))
+        print('-' * 70)
         if peso > 0:
             break
         else:
-            print('-' * 70)
             print('Peso inválido! Digite um valor positivo.')
             print('-' * 70)
     
@@ -71,7 +70,6 @@ for i in range(1, total_pessoas + 1):
     # Contagem de pessoas com peso < 40 kg
     if peso < 40:
         contador_peso += 1
-    print('=' * 70)
 
 # Cálculo média de altura de pessoas entre 10 e 20 anos
 if contador_altura > 0:
@@ -83,10 +81,13 @@ else:
 percentual_peso = (contador_peso / total_pessoas) * 100
 
 # Saída
+print()
 print('=' * 70)
 print(f'Quantidade de pessoas com idade superior a 50 anos: {contador_idade}')
+print('-' * 70)
 print('Média de altura das pessoas com idade entre 10 e 20 anos: '
       f'{media_altura:.2f} m')
+print('-' * 70)
 print('Percentual de pessoas com peso inferior a 40 kg: '
-      f'{percentual_peso:.2f} kg')
+      f'{percentual_peso:.2f}%')
 print('=' * 70)
