@@ -10,7 +10,6 @@ os.system('cls')
 
 # Título
 print('=' * 70)
-print('EXERCÍCIO 13 - ')
 print('EXERCÍCIO 13 - ANÁLISE DE IDADE E PESO')
 print('=' * 70)
 
@@ -60,7 +59,7 @@ media_idade = soma_idade / total_pessoas
 print()
 print('=' * 70)
 print('Resultados: ')
-print('-' * 70)
+print('=' * 70)
 print(f'Quantidade de pessoas com mais de 90 quilos: {contador_peso}')
 print('-' * 70)
 print(f'Média das idades: {media_idade:.0f} anos.')
