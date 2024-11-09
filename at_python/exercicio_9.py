@@ -19,7 +19,7 @@ print('=' * 50)
 numero = int(input('Digite um número para ver sua tabuada: '))
 print('=' * 50)
 
-# Processamento e saída
+# Iteração do número na tabuada e Saída
 print()
 print('=' * 50)
 print(f'Tabuada de {numero}:')
